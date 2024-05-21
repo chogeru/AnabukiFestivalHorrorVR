@@ -13,5 +13,473 @@ MonoBehaviour:
   m_Name: vFolders Data
   m_EditorClassIdentifier: 
   folderDatasByGuid:
-    keys: []
-    values: []
+    keys:
+    - 00000000000000001000000000000000
+    - 1f5abd983dcdad343b02d777d98b2a49
+    - 3535c999fba16d9438c05ad55806d913
+    - a6bf1505b8488b74890f5a7c1575b4b3
+    - f54d1bd14bd3ca042bd867b519fee8cc
+    - 3cc61c05761f73f46b5e9a0e6d487ba3
+    - 43993a027b2154c03af2a8d5df779c94
+    - 329086a42c50a4d3c98d6f8b91dfd3e7
+    - fa44ca68b2e79a94e86a182a5abdfc07
+    - 0e0162ac614514845a377dee6a21ab99
+    - 8bd8fa44eeb414966bbba16fd4efb869
+    - 28a3160a2b3936045baf879ae12aeab0
+    - 29ab7e927676ef74a93aeedf4146f1ac
+    - 6d597fe114807b54a99033a3dae9ce0d
+    - 25be027379f7fce4d97ba2bcaf313019
+    - ad7367bad8eb21a4b8df8cc5cfe6c90b
+    - 29abb68e83e171b4f9104d582272a172
+    - 4a6fe50148b83d640a278b43fafb22b8
+    - b9a106c2354a84347adb17b92ccae723
+    - 13778d3cfd0811b47b8d7d4bd957d0e3
+    - 6c867e5fbc0bb6140841b353042145b1
+    - 47d4a7a1d93eb0b4c9c7ed1028998442
+    - 2506c479414af9548952894936ab416b
+    - 21e75a2a4ddba674fa411c7e61d4231d
+    - a7dd55317a3af42498bab46b89f0e8f3
+    - 03e2f24849429784093e3057d6661c20
+    - a436f54bf279b934985ffb78381526a8
+    - 1b34297a667296b419ca47eafcb49427
+    - 88dc81cb5ed6bf94fab6bc820d0bc5b4
+    - 946317144003c5d4182bec7152cd71ab
+    - 9000ca723759947478a56fd0682cacf9
+    - 90c77709faa194820bed401c94c7198c
+    - f9cbea167976a494da1478ecc8cbc9cb
+    - d9fd14adcaee24a978ac2284d6577ca4
+    - 86957cd6738f847abbdfa3728b30741c
+    - 89f2319875b7a427ba0d4cb676b0a048
+    - 13b22c7f510d941ac93c29f554870482
+    - 62b3b2c2db1ff43258f271697d726c9d
+    - dd5dc381e445a43fd987b92035a7a47b
+    - ed26dde23eedf41eda009019ac0ace71
+    - 56fe9f4c6def149cbbab6a0b88e3b7ad
+    - 9ae9a889ae4094ae592bb8741a8a59f1
+    - c7b42ad25eb664d99b45b120f2cdf552
+    - c778269dcd1834c2490299ac816a6d65
+    - 8dedff9680d664a45ad996ee89b0cc3e
+    - 821b70cff827d409ca15eb2f3e4efb29
+    - a209bba0f45714e4a9d62cfa99ceec3c
+    - dbf8d3ba4aaf97b43b84d5840118f3e1
+    - df154972e47eee7468f07a8a802fe9db
+    - 4a623652839d3854c9bda3252b8f0263
+    - d2e4462c1bb024d0e8cdef082d69b6b6
+    - 1df3b7ce9bb784c84969831df8914a77
+    - aee0bd4c5ed47411faa9085a186aaab4
+    - 7accc5e91bab7457690b4b7513a93f6d
+    - 2568b4b2de4514afbbc2b091dc392750
+    - c360da9d7956740db9310c103e9d34b2
+    - d64cdf2cdf55343d0b4ba79d176d991e
+    - e8a730a79b31ec7428f4ebac9af95871
+    - e262188e71c82e14a8e441184915f068
+    - e0cbb89b2908cf74b89040c145ec885d
+    - 91ececb5ffe7b8f4cbf3fbe75e965322
+    - 7615a8689dcaee6419382c8c08ac06d5
+    - 8e7e8f5a82a3a134e91c54efd2274ea9
+    - 6ab70aee4d56447429c680537fbf93ed
+    - 243e06394e614e5d99fab26083b707fa
+    - e9f693669af91aa45ad615fc681ed29f
+    - d0603b6d5186471b96c778c3949c7ce2
+    - 2f21a033d606bcd4c80a98df8d3e5ce5
+    - d285f161864376748a71b6ee9e4e7a07
+    - f260d936f0e2186489bafd9e8ffa6e57
+    - 7261fe3e5717f7842a8972095f33e692
+    - 65044f209e115834c8eb5328554156a6
+    - cd65fec58ddbd4645b75aa2b4559305e
+    - 43791aa07369746408492074daa2671d
+    - a7d412b38766ca549bc8b6b85359aa09
+    - 45d55a0889661c344a9d7cc291f58133
+    - 0674ef8e5db6f4b40b8917c874981379
+    - d3ad41a4fb4346545a09e83b1d2c6f22
+    values:
+    - guid: 00000000000000001000000000000000
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 1f5abd983dcdad343b02d777d98b2a49
+      iColor: 6
+      autoIcon: ScriptableObject Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 3535c999fba16d9438c05ad55806d913
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: a6bf1505b8488b74890f5a7c1575b4b3
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: f54d1bd14bd3ca042bd867b519fee8cc
+      iColor: 0
+      autoIcon: 
+      customIcon: Font Icon
+      autoIconDirty: 0
+    - guid: 3cc61c05761f73f46b5e9a0e6d487ba3
+      iColor: 9
+      autoIcon: 
+      customIcon: Prefab Icon
+      autoIconDirty: 0
+    - guid: 43993a027b2154c03af2a8d5df779c94
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 329086a42c50a4d3c98d6f8b91dfd3e7
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: fa44ca68b2e79a94e86a182a5abdfc07
+      iColor: 0
+      autoIcon: ScriptableObject Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 0e0162ac614514845a377dee6a21ab99
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 8bd8fa44eeb414966bbba16fd4efb869
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 28a3160a2b3936045baf879ae12aeab0
+      iColor: 0
+      autoIcon: cs Script Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 29ab7e927676ef74a93aeedf4146f1ac
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 6d597fe114807b54a99033a3dae9ce0d
+      iColor: 0
+      autoIcon: SceneAsset Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 25be027379f7fce4d97ba2bcaf313019
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: ad7367bad8eb21a4b8df8cc5cfe6c90b
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 29abb68e83e171b4f9104d582272a172
+      iColor: 0
+      autoIcon: cs Script Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 4a6fe50148b83d640a278b43fafb22b8
+      iColor: 0
+      autoIcon: cs Script Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: b9a106c2354a84347adb17b92ccae723
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 13778d3cfd0811b47b8d7d4bd957d0e3
+      iColor: 0
+      autoIcon: cs Script Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 6c867e5fbc0bb6140841b353042145b1
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 47d4a7a1d93eb0b4c9c7ed1028998442
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 2506c479414af9548952894936ab416b
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 21e75a2a4ddba674fa411c7e61d4231d
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: a7dd55317a3af42498bab46b89f0e8f3
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 03e2f24849429784093e3057d6661c20
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: a436f54bf279b934985ffb78381526a8
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 1b34297a667296b419ca47eafcb49427
+      iColor: 0
+      autoIcon: SceneAsset Icon
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 88dc81cb5ed6bf94fab6bc820d0bc5b4
+      iColor: 6
+      autoIcon: 
+      customIcon: ScriptableObject Icon
+      autoIconDirty: 0
+    - guid: 946317144003c5d4182bec7152cd71ab
+      iColor: 4
+      autoIcon: 
+      customIcon: ScriptableObject Icon
+      autoIconDirty: 0
+    - guid: 9000ca723759947478a56fd0682cacf9
+      iColor: 10
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 90c77709faa194820bed401c94c7198c
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: f9cbea167976a494da1478ecc8cbc9cb
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: d9fd14adcaee24a978ac2284d6577ca4
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 86957cd6738f847abbdfa3728b30741c
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 89f2319875b7a427ba0d4cb676b0a048
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 13b22c7f510d941ac93c29f554870482
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 62b3b2c2db1ff43258f271697d726c9d
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: dd5dc381e445a43fd987b92035a7a47b
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: ed26dde23eedf41eda009019ac0ace71
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 56fe9f4c6def149cbbab6a0b88e3b7ad
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 9ae9a889ae4094ae592bb8741a8a59f1
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: c7b42ad25eb664d99b45b120f2cdf552
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: c778269dcd1834c2490299ac816a6d65
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 8dedff9680d664a45ad996ee89b0cc3e
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 821b70cff827d409ca15eb2f3e4efb29
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: a209bba0f45714e4a9d62cfa99ceec3c
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: dbf8d3ba4aaf97b43b84d5840118f3e1
+      iColor: 0
+      autoIcon: SceneAsset Icon
+      customIcon: 
+      autoIconDirty: 1
+    - guid: df154972e47eee7468f07a8a802fe9db
+      iColor: 0
+      autoIcon: Prefab Icon
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 4a623652839d3854c9bda3252b8f0263
+      iColor: 0
+      autoIcon: cs Script Icon
+      customIcon: 
+      autoIconDirty: 1
+    - guid: d2e4462c1bb024d0e8cdef082d69b6b6
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 1df3b7ce9bb784c84969831df8914a77
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: aee0bd4c5ed47411faa9085a186aaab4
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 7accc5e91bab7457690b4b7513a93f6d
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 2568b4b2de4514afbbc2b091dc392750
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: c360da9d7956740db9310c103e9d34b2
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: d64cdf2cdf55343d0b4ba79d176d991e
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: e8a730a79b31ec7428f4ebac9af95871
+      iColor: 4
+      autoIcon: 
+      customIcon: AnimationClip Icon
+      autoIconDirty: 0
+    - guid: e262188e71c82e14a8e441184915f068
+      iColor: 1
+      autoIcon: 
+      customIcon: Prefab Icon
+      autoIconDirty: 0
+    - guid: e0cbb89b2908cf74b89040c145ec885d
+      iColor: 5
+      autoIcon: 
+      customIcon: Material Icon
+      autoIconDirty: 0
+    - guid: 91ececb5ffe7b8f4cbf3fbe75e965322
+      iColor: 0
+      autoIcon: ScriptableObject Icon
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 7615a8689dcaee6419382c8c08ac06d5
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 8e7e8f5a82a3a134e91c54efd2274ea9
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 6ab70aee4d56447429c680537fbf93ed
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 243e06394e614e5d99fab26083b707fa
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: e9f693669af91aa45ad615fc681ed29f
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: d0603b6d5186471b96c778c3949c7ce2
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 1
+    - guid: 2f21a033d606bcd4c80a98df8d3e5ce5
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: d285f161864376748a71b6ee9e4e7a07
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: f260d936f0e2186489bafd9e8ffa6e57
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 7261fe3e5717f7842a8972095f33e692
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 65044f209e115834c8eb5328554156a6
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: cd65fec58ddbd4645b75aa2b4559305e
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 43791aa07369746408492074daa2671d
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: a7d412b38766ca549bc8b6b85359aa09
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 45d55a0889661c344a9d7cc291f58133
+      iColor: 0
+      autoIcon: 
+      customIcon: 
+      autoIconDirty: 0
+    - guid: 0674ef8e5db6f4b40b8917c874981379
+      iColor: 6
+      autoIcon: 
+      customIcon: ScriptableObject Icon
+      autoIconDirty: 0
+    - guid: d3ad41a4fb4346545a09e83b1d2c6f22
+      iColor: 0
+      autoIcon: SceneAsset Icon
+      customIcon: 
+      autoIconDirty: 0
