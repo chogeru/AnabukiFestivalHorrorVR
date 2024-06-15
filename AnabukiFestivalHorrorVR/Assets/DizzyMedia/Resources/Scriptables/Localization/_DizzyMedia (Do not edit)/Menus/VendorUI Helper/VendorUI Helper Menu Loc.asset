@@ -1,0 +1,518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa0a624cf1a2146418cc4dd7a92ac8aa, type: 3}
+  m_Name: VendorUI Helper Menu Loc
+  m_EditorClassIdentifier: 
+  localization:
+    languages:
+    - name: English
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: Version Missing
+          texts:
+          - name: Version Missing
+            text: '
+
+              The Vendor UI Helper Version file is missing from
+              your project,  Vendor UI Helper cannot run without it!
+
+
+              You
+              can re-import the Vendor UI Helper Version file from the Vendor asset
+              pack on the asset store/package manager.
+
+'
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Main
+          local: 
+          texts:
+          - name: Instructions
+            text: '
+
+              This extension helps with adding and updating
+              UI objects used by the vendor system, to brand new UI setups.
+
+              (i.e
+              button info, menu buttons, etc.)
+
+'
+          buttons:
+          - name: Save Language
+            local: Save Language
+          - name: Save Template
+            local: Save Template
+          - name: Load Template
+            local: Load Template
+          - name: Catch UI Values
+            local: Catch UI Values
+          - name: Update UI
+            local: Update UI
+          toggles: []
+          prompts:
+          - name: Save Template
+            header: Save Template?
+            message: 'You are about to save data to the assigned template, this will
+              overwrite existing values.
+
+
+              Are you sure?'
+            buttons:
+            - name: Yes
+              local: Yes
+            - name: No
+              local: No
+          - name: Load Template
+            header: Load Template?
+            message: 'You are about to load data from the assigned template, this
+              will overwrite existing editor values.
+
+
+              Are you sure?'
+            buttons:
+            - name: Yes
+              local: Yes
+            - name: No
+              local: No
+          - name: Catch UI Values
+            header: Catch UI Values?
+            message: 'You are about to catch UI values from the Vendor UI, this will
+              overwrite existing editor values.
+
+
+              Are you sure?'
+            buttons:
+            - name: Yes
+              local: Yes
+            - name: No
+              local: No
+          - name: Update UI Values
+            header: Update UI Values?
+            message: 'You are about to update UI values to the Vendor UI, this will
+              add new values to the UI references.
+
+
+              Are you sure?'
+            buttons:
+            - name: Yes
+              local: Yes
+            - name: No
+              local: No
+          singleValues:
+          - name: Vendor
+            local: Vendor
+          - name: Inventory
+            local: Inventory
+    - name: Chinese Simplified
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "\u7248\u672C\u7F3A\u5931"
+          texts:
+          - name: Version Missing
+            text: "\n\u60A8\u7684\u9879\u76EE\u4E2D\u7F3A\u5C11\u4F9B\u5E94\u5546
+              UI \u5E2E\u52A9\u7A0B\u5E8F\u7248\u672C\u6587\u4EF6\uFF0C\u4F9B\u5E94\u5546
+              UI \u5E2E\u52A9\u7A0B\u5E8F\u6CA1\u6709\u5B83\u5C31\u65E0\u6CD5\u8FD0\u884C\uFF01\r\n\r\n\u60A8\u53EF\u4EE5\u4ECE\u8D44\u6E90\u5546\u5E97/\u5305\u7BA1\u7406\u5668\u4E0A\u7684\u4F9B\u5E94\u5546\u8D44\u6E90\u5305\u91CD\u65B0\u5BFC\u5165\u4F9B\u5E94\u5546
+              UI \u5E2E\u52A9\u7A0B\u5E8F\u7248\u672C\u6587\u4EF6\u3002\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Main
+          local: 
+          texts:
+          - name: Instructions
+            text: "\n\u6B64\u6269\u5C55\u6709\u52A9\u4E8E\u6DFB\u52A0\u548C\u66F4\u65B0\u4F9B\u5E94\u5546\u7CFB\u7EDF\u4F7F\u7528\u7684
+              UI \u5BF9\u8C61\uFF0C\u4EE5\u5B9E\u73B0\u5168\u65B0\u7684 UI \u8BBE\u7F6E\u3002\r\n\uFF08\u5373\u6309\u94AE\u4FE1\u606F\u3001\u83DC\u5355\u6309\u94AE\u7B49\uFF09\n"
+          buttons:
+          - name: Save Language
+            local: "\u4FDD\u5B58\u8BED\u8A00"
+          - name: Save Template
+            local: "\u4FDD\u5B58\u6A21\u677F"
+          - name: Load Template
+            local: "\u52A0\u8F7D\u6A21\u677F"
+          - name: Catch UI Values
+            local: "\u6355\u83B7 UI \u503C"
+          - name: Update UI
+            local: "\u66F4\u65B0\u7528\u6237\u754C\u9762"
+          toggles: []
+          prompts:
+          - name: Save Template
+            header: "\u4FDD\u5B58\u6A21\u677F\u5417\uFF1F"
+            message: "\u60A8\u5373\u5C06\u5C06\u6570\u636E\u4FDD\u5B58\u5230\u6307\u5B9A\u7684\u6A21\u677F\uFF0C\u8FD9\u5C06\u8986\u76D6\u73B0\u6709\u503C\u3002\r\n\r\n\u4F60\u786E\u5B9A\u5417\uFF1F"
+            buttons:
+            - name: Yes
+              local: "\u662F\u7684"
+            - name: No
+              local: "\u4E0D"
+          - name: Load Template
+            header: "\u52A0\u8F7D\u6A21\u677F\uFF1F"
+            message: "\u60A8\u5373\u5C06\u4ECE\u6307\u5B9A\u7684\u6A21\u677F\u52A0\u8F7D\u6570\u636E\uFF0C\u8FD9\u5C06\u8986\u76D6\u73B0\u6709\u7684\u7F16\u8F91\u5668\u503C\u3002\r\n\r\n\u4F60\u786E\u5B9A\u5417\uFF1F"
+            buttons:
+            - name: Yes
+              local: "\u662F\u7684"
+            - name: No
+              local: "\u4E0D"
+          - name: Catch UI Values
+            header: "\u6355\u6349 UI \u503C\uFF1F"
+            message: "\u60A8\u5C06\u4ECE\u4F9B\u5E94\u5546 UI \u6355\u83B7 UI \u503C\uFF0C\u8FD9\u5C06\u8986\u76D6\u73B0\u6709\u7684\u7F16\u8F91\u5668\u503C\u3002\r\n\r\n\u4F60\u786E\u5B9A\u5417\uFF1F"
+            buttons:
+            - name: Yes
+              local: "\u662F\u7684"
+            - name: No
+              local: "\u4E0D"
+          - name: Update UI Values
+            header: "\u66F4\u65B0 UI \u503C\uFF1F"
+            message: "\u60A8\u5373\u5C06\u5C06 UI \u503C\u66F4\u65B0\u5230\u4F9B\u5E94\u5546
+              UI\uFF0C\u8FD9\u4F1A\u5C06\u65B0\u503C\u6DFB\u52A0\u5230 UI \u5F15\u7528\u3002\r\n\r\n\u4F60\u786E\u5B9A\u5417\uFF1F"
+            buttons:
+            - name: Yes
+              local: "\u662F\u7684"
+            - name: No
+              local: "\u4E0D"
+          singleValues:
+          - name: Vendor
+            local: "\u5C0F\u8D29"
+          - name: Inventory
+            local: "\u5B58\u8D27"
+    - name: Chinese Traditional
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "\u7248\u672C\u7F3A\u5931"
+          texts:
+          - name: Version Missing
+            text: "\n\u60A8\u7684\u5C08\u6848\u4E2D\u7F3A\u5C11\u4F9B\u61C9\u5546
+              UI \u5E6B\u52A9\u7A0B\u5F0F\u7248\u672C\u6587\u4EF6\uFF0C\u4F9B\u61C9\u5546
+              UI \u5E6B\u52A9\u7A0B\u5F0F\u6C92\u6709\u5B83\u5C31\u7121\u6CD5\u904B\u4F5C\uFF01\r\n\r\n\u60A8\u53EF\u4EE5\u5F9E\u8CC7\u6E90\u5546\u5E97/\u5957\u4EF6\u7BA1\u7406\u5668\u4E0A\u7684\u4F9B\u61C9\u5546\u8CC7\u6E90\u5305\u91CD\u65B0\u532F\u5165\u4F9B\u61C9\u5546
+              UI \u5E6B\u52A9\u7A0B\u5F0F\u7248\u672C\u6A94\u6848\u3002\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Main
+          local: 
+          texts:
+          - name: Instructions
+            text: "\n\u6B64\u64F4\u5145\u529F\u80FD\u6709\u52A9\u65BC\u65B0\u589E\u548C\u66F4\u65B0\u4F9B\u61C9\u5546\u7CFB\u7D71\u4F7F\u7528\u7684
+              UI \u5C0D\u8C61\uFF0C\u4EE5\u5BE6\u73FE\u5168\u65B0\u7684 UI \u8A2D\u5B9A\u3002\r\n\uFF08\u5373\u6309\u9215\u8CC7\u8A0A\u3001\u9078\u55AE\u6309\u9215\u7B49\uFF09\n"
+          buttons:
+          - name: Save Language
+            local: "\u5132\u5B58\u8A9E\u8A00"
+          - name: Save Template
+            local: "\u5132\u5B58\u6A21\u677F"
+          - name: Load Template
+            local: "\u8F09\u5165\u6A21\u677F"
+          - name: Catch UI Values
+            local: "\u6355\u7372 UI \u503C"
+          - name: Update UI
+            local: "\u66F4\u65B0\u4F7F\u7528\u8005\u4ECB\u9762"
+          toggles: []
+          prompts:
+          - name: Save Template
+            header: "\u5132\u5B58\u6A21\u677F\u55CE\uFF1F"
+            message: "\u60A8\u5373\u5C07\u5C07\u8CC7\u6599\u5132\u5B58\u5230\u6307\u5B9A\u7684\u6A21\u677F\uFF0C\u9019\u5C07\u8986\u84CB\u73FE\u6709\u503C\u3002\r\n\r\n\u4F60\u78BA\u5B9A\u55CE\uFF1F"
+            buttons:
+            - name: Yes
+              local: "\u662F\u7684"
+            - name: No
+              local: "\u4E0D"
+          - name: Load Template
+            header: "\u8F09\u5165\u6A21\u677F\uFF1F"
+            message: "\u60A8\u5373\u5C07\u5F9E\u6307\u5B9A\u7684\u7BC4\u672C\u8F09\u5165\u6578\u64DA\uFF0C\u9019\u5C07\u8986\u84CB\u73FE\u6709\u7684\u7DE8\u8F2F\u5668\u503C\u3002\r\n\r\n\u4F60\u78BA\u5B9A\u55CE\uFF1F"
+            buttons:
+            - name: Yes
+              local: "\u662F\u7684"
+            - name: No
+              local: "\u4E0D"
+          - name: Catch UI Values
+            header: "\u6355\u6349 UI \u503C\uFF1F"
+            message: "\u60A8\u5C07\u5F9E\u4F9B\u61C9\u5546 UI \u64F7\u53D6 UI \u503C\uFF0C\u9019\u5C07\u8986\u5BEB\u73FE\u6709\u7684\u7DE8\u8F2F\u5668\u503C\u3002\r\n\r\n\u4F60\u78BA\u5B9A\u55CE\uFF1F"
+            buttons:
+            - name: Yes
+              local: "\u662F\u7684"
+            - name: No
+              local: "\u4E0D"
+          - name: Update UI Values
+            header: "\u66F4\u65B0 UI \u503C\uFF1F"
+            message: "\u60A8\u5373\u5C07\u5C07 UI \u503C\u66F4\u65B0\u5230\u4F9B\u61C9\u5546
+              UI\uFF0C\u9019\u6703\u5C07\u65B0\u503C\u65B0\u589E\u81F3 UI \u53C3\u8003\u3002\r\n\r\n\u4F60\u78BA\u5B9A\u55CE\uFF1F"
+            buttons:
+            - name: Yes
+              local: "\u662F\u7684"
+            - name: No
+              local: "\u4E0D"
+          singleValues:
+          - name: Vendor
+            local: "\u5C0F\u8CA9"
+          - name: Inventory
+            local: "\u5B58\u8CA8"
+    - name: French
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: Version manquante
+          texts:
+          - name: Version Missing
+            text: "\nLe fichier Vendor UI Helper Version est absent de votre projet,
+              Vendor UI Helper ne peut pas fonctionner sans lui\_!\r\n\r\nVous pouvez
+              r\xE9importer le fichier Vendor UI Helper Version \xE0 partir du pack
+              d'actifs du fournisseur sur le magasin d'actifs/gestionnaire de packages.\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Main
+          local: 
+          texts:
+          - name: Instructions
+            text: "\nCette extension permet d'ajouter et de mettre \xE0 jour les
+              objets d'interface utilisateur utilis\xE9s par le syst\xE8me du fournisseur
+              vers de toutes nouvelles configurations d'interface utilisateur.\r\n(c'est-\xE0-dire
+              informations sur les boutons, boutons de menu, etc.)\n"
+          buttons:
+          - name: Save Language
+            local: Enregistrer la langue
+          - name: Save Template
+            local: "Enregistrer le mod\xE8le"
+          - name: Load Template
+            local: "Charger le mod\xE8le"
+          - name: Catch UI Values
+            local: Capturer les valeurs de l'interface utilisateur
+          - name: Update UI
+            local: "Mettre \xE0 jour l'interface utilisateur"
+          toggles: []
+          prompts:
+          - name: Save Template
+            header: "Enregistrer le mod\xE8le\_?"
+            message: "Vous \xEAtes sur le point d'enregistrer les donn\xE9es dans
+              le mod\xE8le attribu\xE9, cela \xE9crasera les valeurs existantes.\r\n\r\nEs-tu
+              s\xFBr?"
+            buttons:
+            - name: Yes
+              local: Oui
+            - name: No
+              local: Non
+          - name: Load Template
+            header: "Charger le mod\xE8le\_?"
+            message: "Vous \xEAtes sur le point de charger les donn\xE9es du mod\xE8le
+              attribu\xE9, cela \xE9crasera les valeurs existantes de l'\xE9diteur.\r\n\r\nEs-tu
+              s\xFBr?"
+            buttons:
+            - name: Yes
+              local: Oui
+            - name: No
+              local: Non
+          - name: Catch UI Values
+            header: "Capturer les valeurs de l'interface utilisateur\_?"
+            message: "Vous \xEAtes sur le point de r\xE9cup\xE9rer les valeurs de
+              l'interface utilisateur de l'interface utilisateur du fournisseur,
+              cela \xE9crasera les valeurs de l'\xE9diteur existantes.\r\n\r\nEs-tu
+              s\xFBr?"
+            buttons:
+            - name: Yes
+              local: Oui
+            - name: No
+              local: Non
+          - name: Update UI Values
+            header: "Mettre \xE0 jour les valeurs de l'interface utilisateur\_?"
+            message: "Vous \xEAtes sur le point de mettre \xE0 jour les valeurs de
+              l'interface utilisateur vers l'interface utilisateur du fournisseur,
+              cela ajoutera de nouvelles valeurs aux r\xE9f\xE9rences de l'interface
+              utilisateur.\r\n\r\nEs-tu s\xFBr?"
+            buttons:
+            - name: Yes
+              local: Oui
+            - name: No
+              local: Non
+          singleValues:
+          - name: Vendor
+            local: Fournisseur
+          - name: Inventory
+            local: Inventaire
+    - name: Korean
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "\uBC84\uC804 \uB204\uB77D"
+          texts:
+          - name: Version Missing
+            text: "\n\uACF5\uAE09\uC5C5\uCCB4 UI \uB3C4\uC6B0\uBBF8 \uBC84\uC804
+              \uD30C\uC77C\uC774 \uD504\uB85C\uC81D\uD2B8\uC5D0 \uC5C6\uC2B5\uB2C8\uB2E4.
+              \uACF5\uAE09\uC5C5\uCCB4 UI \uB3C4\uC6B0\uBBF8 \uBC84\uC804 \uD30C\uC77C\uC774
+              \uC5C6\uC73C\uBA74 \uACF5\uAE09\uC5C5\uCCB4 UI \uB3C4\uC6B0\uBBF8\uB97C
+              \uC2E4\uD589\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.\r\n\r\n\uC5D0\uC14B
+              \uC2A4\uD1A0\uC5B4/\uD328\uD0A4\uC9C0 \uAD00\uB9AC\uC790\uC758 \uACF5\uAE09\uC5C5\uCCB4
+              \uC790\uC0B0 \uD329\uC5D0\uC11C \uACF5\uAE09\uC5C5\uCCB4 UI \uB3C4\uC6B0\uBBF8
+              \uBC84\uC804 \uD30C\uC77C\uC744 \uB2E4\uC2DC \uAC00\uC838\uC62C \uC218
+              \uC788\uC2B5\uB2C8\uB2E4.\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Main
+          local: 
+          texts:
+          - name: Instructions
+            text: "\n\uC774 \uD655\uC7A5\uC740 \uACF5\uAE09\uC5C5\uCCB4 \uC2DC\uC2A4\uD15C\uC5D0\uC11C
+              \uC0AC\uC6A9\uD558\uB294 UI \uAC1C\uCCB4\uB97C \uCD94\uAC00\uD558\uACE0
+              \uC5C5\uB370\uC774\uD2B8\uD558\uC5EC \uC0C8\uB85C\uC6B4 UI \uC124\uC815\uC744
+              \uB9CC\uB4DC\uB294 \uB370 \uB3C4\uC6C0\uC774 \uB429\uB2C8\uB2E4.\r\n(\uC608:
+              \uBC84\uD2BC \uC815\uBCF4, \uBA54\uB274 \uBC84\uD2BC \uB4F1)\n"
+          buttons:
+          - name: Save Language
+            local: "\uC5B8\uC5B4 \uC800\uC7A5"
+          - name: Save Template
+            local: "\uD15C\uD50C\uB9BF \uC800\uC7A5"
+          - name: Load Template
+            local: "\uD15C\uD50C\uB9BF \uB85C\uB4DC"
+          - name: Catch UI Values
+            local: "UI \uAC12 \uC7A1\uAE30"
+          - name: Update UI
+            local: "UI \uC5C5\uB370\uC774\uD2B8"
+          toggles: []
+          prompts:
+          - name: Save Template
+            header: "\uD15C\uD50C\uB9BF\uC744 \uC800\uC7A5\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+            message: "\uD560\uB2F9\uB41C \uD15C\uD50C\uB9BF\uC5D0 \uB370\uC774\uD130\uB97C
+              \uC800\uC7A5\uD558\uB824\uACE0 \uD569\uB2C8\uB2E4. \uC774\uB807\uAC8C
+              \uD558\uBA74 \uAE30\uC874 \uAC12\uC744 \uB36E\uC5B4\uC4F0\uAC8C \uB429\uB2C8\uB2E4.\r\n\r\n\uD655\uC2E4\uD569\uB2C8\uAE4C?"
+            buttons:
+            - name: Yes
+              local: "\uC608"
+            - name: No
+              local: "\uC544\uB2C8\uC694"
+          - name: Load Template
+            header: "\uD15C\uD50C\uB9BF\uC744 \uB85C\uB4DC\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+            message: "\uD560\uB2F9\uB41C \uD15C\uD50C\uB9BF\uC5D0\uC11C \uB370\uC774\uD130\uB97C
+              \uB85C\uB4DC\uD558\uB824\uACE0 \uD569\uB2C8\uB2E4. \uC774\uB807\uAC8C
+              \uD558\uBA74 \uAE30\uC874 \uD3B8\uC9D1\uAE30 \uAC12\uC744 \uB36E\uC5B4\uC4F0\uAC8C
+              \uB429\uB2C8\uB2E4.\r\n\r\n\uD655\uC2E4\uD569\uB2C8\uAE4C?"
+            buttons:
+            - name: Yes
+              local: Yes
+            - name: No
+              local: No
+          - name: Catch UI Values
+            header: "UI \uAC12\uC744 \uD3EC\uCC29\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+            message: "\uACF5\uAE09\uC5C5\uCCB4 UI\uC5D0\uC11C UI \uAC12\uC744 \uAC00\uC838\uC624\uB824\uACE0
+              \uD569\uB2C8\uB2E4. \uC774\uB807\uAC8C \uD558\uBA74 \uAE30\uC874 \uD3B8\uC9D1\uAE30
+              \uAC12\uC744 \uB36E\uC5B4\uC4F0\uAC8C \uB429\uB2C8\uB2E4.\r\n\r\n\uD655\uC2E4\uD569\uB2C8\uAE4C?"
+            buttons:
+            - name: Yes
+              local: Yes
+            - name: No
+              local: No
+          - name: Update UI Values
+            header: "UI \uAC12\uC744 \uC5C5\uB370\uC774\uD2B8\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+            message: "UI \uAC12\uC744 \uACF5\uAE09\uC5C5\uCCB4 UI\uB85C \uC5C5\uB370\uC774\uD2B8\uD558\uB824\uACE0
+              \uD569\uB2C8\uB2E4. \uC774\uB807\uAC8C \uD558\uBA74 UI \uCC38\uC870\uC5D0
+              \uC0C8 \uAC12\uC774 \uCD94\uAC00\uB429\uB2C8\uB2E4.\r\n\r\n\uD655\uC2E4\uD569\uB2C8\uAE4C?"
+            buttons:
+            - name: Yes
+              local: Yes
+            - name: No
+              local: No
+          singleValues:
+          - name: Vendor
+            local: "\uACF5\uAE09\uC5C5\uCCB4"
+          - name: Inventory
+            local: "\uBAA9\uB85D"
+    - name: Spanish
+      windows:
+      - name: Welcome
+        sections:
+        - name: Version Missing
+          local: "Falta la versi\xF3n"
+          texts:
+          - name: Version Missing
+            text: "\nEl archivo de la versi\xF3n Vendor UI Helper no est\xE1 en su
+              proyecto, \xA1Vendor UI Helper no puede ejecutarse sin \xE9l!\r\n\r\nPuede
+              volver a importar el archivo de la versi\xF3n auxiliar de la interfaz
+              de usuario del proveedor desde el paquete de activos del proveedor
+              en la tienda de activos/administrador de paquetes.\n"
+          buttons: []
+          toggles: []
+          prompts: []
+          singleValues: []
+        - name: Main
+          local: 
+          texts:
+          - name: Instructions
+            text: "\nEsta extensi\xF3n ayuda a agregar y actualizar objetos de UI
+              utilizados por el sistema del proveedor, a configuraciones de UI completamente
+              nuevas (es decir, informaci\xF3n de botones, botones de men\xFA, etc.)\n"
+          buttons:
+          - name: Save Language
+            local: Guardar idioma
+          - name: Save Template
+            local: Guardar plantilla
+          - name: Load Template
+            local: Cargar plantilla
+          - name: Catch UI Values
+            local: Captura de valores de la interfaz de usuario
+          - name: Update UI
+            local: Actualizar interfaz de usuario
+          toggles: []
+          prompts:
+          - name: Save Template
+            header: "\xBFGuardar plantilla?"
+            message: "Est\xE1 a punto de guardar datos en la plantilla asignada;
+              esto sobrescribir\xE1 los valores existentes.\r\n\r\n\xBFEst\xE1 seguro?"
+            buttons:
+            - name: Yes
+              local: "S\xED"
+            - name: No
+              local: No
+          - name: Load Template
+            header: "\xBFCargar plantilla?"
+            message: "Est\xE1 a punto de cargar datos de la plantilla asignada; esto
+              sobrescribir\xE1 los valores existentes del editor.\r\n\r\n\xBFEst\xE1
+              seguro?"
+            buttons:
+            - name: Yes
+              local: "S\xED"
+            - name: No
+              local: No
+          - name: Catch UI Values
+            header: "\xBFCaptar los valores de la interfaz de usuario?"
+            message: "Est\xE1 a punto de capturar los valores de la interfaz de usuario
+              de la interfaz de usuario del proveedor; esto sobrescribir\xE1 los
+              valores del editor existentes.\r\n\r\n\xBFEst\xE1 seguro?"
+            buttons:
+            - name: Yes
+              local: "S\xED"
+            - name: No
+              local: No
+          - name: Update UI Values
+            header: "\xBFActualizar los valores de la interfaz de usuario?"
+            message: "Est\xE1 a punto de actualizar los valores de la UI a la UI
+              del proveedor; esto agregar\xE1 nuevos valores a las referencias de
+              la UI.\r\n\r\n\xBFEst\xE1 seguro?"
+            buttons:
+            - name: Yes
+              local: "S\xED"
+            - name: No
+              local: No
+          singleValues:
+          - name: Vendor
+            local: Proveedor
+          - name: Inventory
+            local: Inventario
