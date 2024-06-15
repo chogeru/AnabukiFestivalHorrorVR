@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537db765ef2fd3049b1c0968bfe385ec, type: 3}
+  m_Name: Components Scenes (Basic + Localized)
+  m_EditorClassIdentifier: 
+  scenes:
+  - {fileID: 102900000, guid: e559cc2482b019f4fb71d63f8e6ce474, type: 3}
+  - {fileID: 102900000, guid: 170a2f21ac94f5b4bae37020446ddb73, type: 3}
+  - {fileID: 102900000, guid: 599e56b786615424e86ffe75c0d91191, type: 3}
+  - {fileID: 102900000, guid: 23561ffaff48a834091b208c22ad2619, type: 3}
+  - {fileID: 102900000, guid: d10cd3bef2152ed44bbc96b3fbf20bd7, type: 3}
+  - {fileID: 102900000, guid: 15b23f34fc8ae6341a221aa32ecb7288, type: 3}
+  - {fileID: 102900000, guid: c7470e07809367845b50dae264d69766, type: 3}
+  - {fileID: 102900000, guid: c241402d0d949b9489fda61b0aedda07, type: 3}
+  - {fileID: 102900000, guid: 3902e61b9b76d624cbb6d6d9c7b12260, type: 3}
+  - {fileID: 102900000, guid: a5e67b3be6d688e4285a1667058f8fa9, type: 3}
+  - {fileID: 102900000, guid: 00f7f24524a45ae4cb45ad22b166c7ac, type: 3}
+  - {fileID: 102900000, guid: 500d8a841e3e7a744816ed6ae5809770, type: 3}
+  - {fileID: 102900000, guid: 38e07e495ea16ea4b9b8d4d2d72ea827, type: 3}
+  - {fileID: 102900000, guid: 7f4372cb12ccd824e9a242b27088d7ad, type: 3}
+  - {fileID: 102900000, guid: 6e7b562f30caae8429348b10ff2fe182, type: 3}
+  - {fileID: 102900000, guid: deb7a313f112ee845976152d787315be, type: 3}
+  - {fileID: 102900000, guid: 19f49b9d03ed7fe4a819c46509fafcd9, type: 3}
+  - {fileID: 102900000, guid: 6694d9cc3bf6ca44c94e880c66e18ad9, type: 3}
+  - {fileID: 102900000, guid: 31fc8c7e919440b4898f9ef042b53235, type: 3}
+  - {fileID: 102900000, guid: cd1aadf9c2f97dc45bfc7cb25c09128c, type: 3}
