@@ -11,6 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: c73d0a68c32425f44990e420368ddda6, type: 3}
   m_ValidKeywords:
   - N_F_CA_ON
+  - N_F_HCS_ON
   - N_F_NLASOBF_ON
   - N_F_NM_ON
   - N_F_O_ON
