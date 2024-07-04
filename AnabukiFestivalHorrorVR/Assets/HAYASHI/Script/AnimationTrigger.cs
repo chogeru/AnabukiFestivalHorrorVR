@@ -23,7 +23,7 @@ public class AnimationTrigger : MonoBehaviour
         EventManager.OnKillerPranEvent -= TriggerAnimation;
     }
 
-    void TriggerAnimation()
+    public void TriggerAnimation()
     {
         //指定のアニメーションパラメーターをtrueに設定
         m_Animator.SetBool(m_ParametaName, true);

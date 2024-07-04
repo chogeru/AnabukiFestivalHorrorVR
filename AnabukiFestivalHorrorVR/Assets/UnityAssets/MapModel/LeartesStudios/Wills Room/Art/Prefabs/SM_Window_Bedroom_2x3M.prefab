@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1030976147}
   - component: {fileID: 1030976148}
-  - component: {fileID: 1030976149}
   m_Layer: 0
   m_Name: SM_Window_Bedroom_2x3M
   m_TagString: Untagged
@@ -69,20 +68,6 @@ LODGroup:
     - renderer: {fileID: 1030976164}
     - renderer: {fileID: 0}
   m_Enabled: 1
---- !u!64 &1030976149
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030976146}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300008, guid: abc00000000000577870898594618366, type: 3}
 --- !u!1 &1030976150
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +79,7 @@ GameObject:
   - component: {fileID: 1030976151}
   - component: {fileID: 1030976152}
   - component: {fileID: 1030976153}
+  - component: {fileID: 8859161778195087955}
   m_Layer: 0
   m_Name: SM_Window_Bedroom_2x3M_LOD0
   m_TagString: Untagged
@@ -168,6 +154,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030976150}
   m_Mesh: {fileID: 4300000, guid: abc00000000000577870898594618366, type: 3}
+--- !u!65 &8859161778195087955
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030976150}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4213029, y: 3, z: 2}
+  m_Center: {x: -0.16811559, y: 1.5, z: 1}
 --- !u!1 &1030976154
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +178,7 @@ GameObject:
   - component: {fileID: 1030976155}
   - component: {fileID: 1030976156}
   - component: {fileID: 1030976157}
+  - component: {fileID: 325835193210422579}
   m_Layer: 0
   m_Name: SM_Window_Bedroom_2x3M_LOD1
   m_TagString: Untagged
@@ -253,6 +253,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030976154}
   m_Mesh: {fileID: 4300002, guid: abc00000000000577870898594618366, type: 3}
+--- !u!65 &325835193210422579
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030976154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4213029, y: 3, z: 2.0000002}
+  m_Center: {x: -0.16811559, y: 1.5, z: 0.9999998}
 --- !u!1 &1030976158
 GameObject:
   m_ObjectHideFlags: 0

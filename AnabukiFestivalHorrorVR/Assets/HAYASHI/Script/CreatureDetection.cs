@@ -8,12 +8,11 @@ public class CreatureDetection : MonoBehaviour
     public float m_ViewDistance = 10f;
     [SerializeField,Header("視野の角度")]
     public float m_ViewAngle = 120f;
-    [SerializeField,Header("クリーチャー検知レイヤー")]
-    public LayerMask m_CreatureLayer;
-    [SerializeField,Header("障害物のレイヤー")]
-    public LayerMask m_ObstacleLayer;
     public bool isTrigger = false;
-
+    [SerializeField, Header("アニメーショントリガー")]
+    private AnimationTrigger m_AnimationTrigger;
+    [SerializeField, Header("クリーチャーレイヤー")]
+    private LayerMask m_CreatureLayer;
     private void Update()
     {
         CheckForCreatures();
@@ -31,12 +30,16 @@ public class CreatureDetection : MonoBehaviour
             //クリーチャーが視野内にいるかチェック
             if (angleToCreature < m_ViewAngle / 2)
             {
-                //レイキャストを発射しクリーチャーにヒットするかチェック
-                if (RaycastToCreature(creature))
+                if (creature != null)
                 {
-                    //命中していたらtriggerをtrueに
-                    isTrigger = true;
-                    return;
+                    //レイキャストを発射しクリーチャーにヒットするかチェック
+                    if (RaycastToCreature(creature))
+                    {
+                        //命中していたらtriggerをtrueに
+                        isTrigger = true;
+                        m_AnimationTrigger.TriggerAnimation();
+                        return;
+                    }
                 }
             }
         }
@@ -45,18 +48,24 @@ public class CreatureDetection : MonoBehaviour
     }
     bool RaycastToCreature(Collider creature)
     {
-        Vector3 directionToCreature = (creature.transform.position - transform.position).normalized;
+        Vector3 rayOrigin = transform.position + Vector3.up;  // 高さプラス1の位置から発射
+        Vector3 directionToCreature = (creature.transform.position - rayOrigin).normalized;
+        Ray ray = new Ray(rayOrigin, directionToCreature);
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, directionToCreature, out hit, m_ViewDistance, ~m_ObstacleLayer))
+        // Debug.DrawRayを使用してレイキャストを可視化
+        Debug.DrawRay(rayOrigin, directionToCreature * m_ViewDistance, Color.red);
+
+        // Raycastを発射し、ヒットしたものがクリーチャーかチェック
+        if (Physics.Raycast(ray, out hit, m_ViewDistance))
         {
-            //クリーチャータグに命中したかどうか
-            if (hit.collider.CompareTag("Creature"))
+            // ヒットしたオブジェクトがクリーチャータグを持っているか確認
+            if (hit.collider == creature)
             {
+                m_AnimationTrigger=hit.collider.GetComponent<AnimationTrigger>();
                 return true;
             }
         }
-
         return false;
     }
 

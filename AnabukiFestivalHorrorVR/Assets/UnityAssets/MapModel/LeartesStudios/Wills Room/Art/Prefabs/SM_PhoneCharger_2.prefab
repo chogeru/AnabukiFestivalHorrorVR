@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1030983000}
   - component: {fileID: 1030983001}
-  - component: {fileID: 1030983002}
   m_Layer: 0
   m_Name: SM_PhoneCharger_2
   m_TagString: Untagged
@@ -69,20 +68,6 @@ LODGroup:
     - renderer: {fileID: 1030983017}
     - renderer: {fileID: 0}
   m_Enabled: 1
---- !u!64 &1030983002
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030982999}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300008, guid: abc00000000006207466291731002298, type: 3}
 --- !u!1 &1030983003
 GameObject:
   m_ObjectHideFlags: 0

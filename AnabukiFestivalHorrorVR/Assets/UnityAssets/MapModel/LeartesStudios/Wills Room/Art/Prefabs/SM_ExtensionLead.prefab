@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1030977403}
   - component: {fileID: 1030977404}
-  - component: {fileID: 1030977405}
   m_Layer: 0
   m_Name: SM_ExtensionLead
   m_TagString: Untagged
@@ -69,20 +68,6 @@ LODGroup:
     - renderer: {fileID: 1030977420}
     - renderer: {fileID: 0}
   m_Enabled: 1
---- !u!64 &1030977405
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1030977402}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300008, guid: abc00000000013546249652684775507, type: 3}
 --- !u!1 &1030977406
 GameObject:
   m_ObjectHideFlags: 0

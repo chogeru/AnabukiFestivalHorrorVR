@@ -10,13 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 1030974699}
   - component: {fileID: 1030974700}
-  - component: {fileID: 1030974701}
+  - component: {fileID: 7318590623402148415}
   m_Layer: 0
   m_Name: SM_Doorway_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1030974699
 Transform:
@@ -69,20 +69,48 @@ LODGroup:
     - renderer: {fileID: 1030974716}
     - renderer: {fileID: 0}
   m_Enabled: 1
---- !u!64 &1030974701
-MeshCollider:
+--- !u!114 &7318590623402148415
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030974698}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300008, guid: abc00000000003985270126890560272, type: 3}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 055daf6e6a49ca348bf85002cc79e526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  rotationSpeed: 1
+  rotationAngle: 90
+  detectionRange: 3
+  easingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  m_ClipName: "\u53E4\u3073\u305F\u30C9\u30A2\u3092\u958B\u3051\u308B"
+  m_Volume: 1
 --- !u!1 &1030974702
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,12 +122,13 @@ GameObject:
   - component: {fileID: 1030974703}
   - component: {fileID: 1030974704}
   - component: {fileID: 1030974705}
+  - component: {fileID: 4358555417134418909}
   m_Layer: 0
   m_Name: SM_Doorway_Door_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1030974703
 Transform:
@@ -166,6 +195,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030974702}
   m_Mesh: {fileID: 4300000, guid: abc00000000003985270126890560272, type: 3}
+--- !u!65 &4358555417134418909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030974702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15119298, y: 2.2892935, z: 1.0781324}
+  m_Center: {x: -0.04748027, y: 1.1534189, z: -0.5321655}
 --- !u!1 &1030974706
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,12 +219,13 @@ GameObject:
   - component: {fileID: 1030974707}
   - component: {fileID: 1030974708}
   - component: {fileID: 1030974709}
+  - component: {fileID: 3887654016556887194}
   m_Layer: 0
   m_Name: SM_Doorway_Door_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1030974707
 Transform:
@@ -249,6 +292,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1030974706}
   m_Mesh: {fileID: 4300002, guid: abc00000000003985270126890560272, type: 3}
+--- !u!65 &3887654016556887194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030974706}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15626815, y: 2.2892935, z: 1.0800815}
+  m_Center: {x: -0.04748029, y: 1.1534189, z: -0.531191}
 --- !u!1 &1030974710
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,7 +321,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1030974711
 Transform:
@@ -348,7 +404,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1030974715
 Transform:

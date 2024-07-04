@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030976674}
   - component: {fileID: 1030976675}
-  - component: {fileID: 1030976676}
+  - component: {fileID: 1689105785650671927}
   m_Layer: 0
   m_Name: SM_Wall_Bedroom_Corner
   m_TagString: Untagged
@@ -69,8 +69,8 @@ LODGroup:
     - renderer: {fileID: 1030976691}
     - renderer: {fileID: 0}
   m_Enabled: 1
---- !u!64 &1030976676
-MeshCollider:
+--- !u!65 &1689105785650671927
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -79,10 +79,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300008, guid: abc00000000014796261799518351425, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3, z: 1}
+  m_Center: {x: 0.5, y: 1.5, z: -0.5}
 --- !u!1 &1030976677
 GameObject:
   m_ObjectHideFlags: 0
