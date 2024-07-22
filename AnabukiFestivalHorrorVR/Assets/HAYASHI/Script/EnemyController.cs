@@ -16,6 +16,13 @@ public class EnemyController : MonoBehaviour
     [SerializeField, Header("シーンマネージャー")]
     private FadeSceneManager m_FadeSceneManager;
 
+    [SerializeField, Header("ジャンプすケアSE名")]
+    private string m_SEName;
+
+    [SerializeField, Header("SE音量")]
+    private float m_Volume;
+    
+
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
@@ -116,6 +123,7 @@ public class EnemyController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SEManager.instance.PlaySound(m_SEName, m_Volume);
             this.gameObject.SetActive(false);
             m_JumpScareModel.SetActive(true);
             m_FadeSceneManager.FadeSceneChange();
